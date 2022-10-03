@@ -14,5 +14,5 @@ COPY app/ ./
 COPY --chown=root:root default_settings.py /app/zerobin
 
 EXPOSE 80
-VOLUME /data
+
 CMD ["python", "zerobin.py"]
